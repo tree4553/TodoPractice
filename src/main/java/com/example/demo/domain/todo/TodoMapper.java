@@ -26,6 +26,7 @@ public class TodoMapper {
                 todo.getContent(),
                 todo.getCreatedAt()
         );
+
         return responseDto;
     }
 }

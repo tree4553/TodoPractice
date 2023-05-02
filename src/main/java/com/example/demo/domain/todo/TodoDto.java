@@ -10,7 +10,7 @@ public class TodoDto {
     @Getter
     @Setter
     @AllArgsConstructor
-    public static class PostDto {
+    public class PostDto {
         private Long memberId;
         private String title;
         private String content;
